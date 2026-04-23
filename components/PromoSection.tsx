@@ -45,7 +45,7 @@ export default function PromoSection() {
       description: "Whether you need a quick pick-me-up or a long-lasting treat to fuel your day, we have the perfect size for every mood and moment. Choose your favorite and make it yours.",
       imageUrl: "/coffees.png",
       imagePosition: "right",
-      imageCustomClass: "w-[700px] top-[-145px] left-[-90px]", 
+      imageCustomClass: "w-[600px] top-[-100px] left-[-60px]", 
     },
     {
       id: 2,
@@ -55,7 +55,7 @@ export default function PromoSection() {
       description: "Introducing vibrant iced Mango Cream Matcha. Topped with velvety mango cream cold foam for a delicious pop of sweetness.",
       imageUrl: "/icedmangomatcha.png",
       imagePosition: "left",
-      imageCustomClass: "w-[530px] top-[-150px] right-[-130px]", 
+      imageCustomClass: "w-[500px] top-[-140px] right-[-100px]", 
     },
     {
       id: 3,
@@ -65,7 +65,7 @@ export default function PromoSection() {
       description: "Iced Lavender Cream Chai are back in bloom, joined by the new Iced Ube Coconut Macchiato and so much more.",
       imageUrl: "/icedchai.png",
       imagePosition: "right",
-      imageCustomClass: "w-[530px] top-[-150px] left-[-130px]", 
+      imageCustomClass: "w-[500px] top-[-140px] left-[-100px]", 
     },
   ];
 
@@ -88,7 +88,7 @@ export default function PromoSection() {
                   <p className="text-sm tracking-[0.2em] text-[#1e3932] font-semibold uppercase">
                     {promo.subtitle}
                   </p>
-                  <h1 className="text-5xl md:text-7xl font-bold text-[#1e3932] leading-tight whitespace-pre-line">
+                  <h1 className="text-3xl md:text-6xl font-bold text-[#1e3932] leading-tight whitespace-pre-line">
                     {promo.title}
                   </h1>
                   <p className="text-sm tracking-[0.2em] text-[#1e3932] font-semibold uppercase">
